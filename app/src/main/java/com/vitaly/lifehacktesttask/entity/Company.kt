@@ -1,4 +1,7 @@
 package com.vitaly.lifehacktesttask.entity
 
-class Company {
-}
+data class Company (
+    val id: Long,
+    val name: String,
+    val imageUrl: String
+)
